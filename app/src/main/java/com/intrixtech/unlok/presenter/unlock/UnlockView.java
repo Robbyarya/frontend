@@ -1,7 +1,7 @@
 package com.intrixtech.unlok.presenter.unlock;
 
 /**
- * Created by prateekarora on 06/04/16.
+ * Created by Arti Verma on 06/04/16.
  */
 public interface UnlockView {
 
