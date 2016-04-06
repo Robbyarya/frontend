@@ -5,4 +5,5 @@ package com.intrixtech.unlok.utils;
  */
 public class Constants {
     public static final int SPLASH_TIME = 3000;
+    public static final int NUM_PAGES = 4;
 }

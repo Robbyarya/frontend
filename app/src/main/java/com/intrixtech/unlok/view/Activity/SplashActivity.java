@@ -2,15 +2,13 @@ package com.intrixtech.unlok.view.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.intrixtech.unlok.R;
 import com.intrixtech.unlok.UnlockActivity;
 import com.intrixtech.unlok.utils.Constants;
 
 /**
- * Created by prateekarora on 06/04/16.
+ * Created by Arti Verma on 06/04/16.
  */
 public class SplashActivity extends UnlockActivity {
 
@@ -23,7 +21,7 @@ public class SplashActivity extends UnlockActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(getBaseContext(), TutorialActivity.class);
+                Intent i = new Intent(getBaseContext(), UnlockTourActivity.class);
                 startActivity(i);
                 //Remove activity
                 finish();
