@@ -9,7 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/image1"
+        android:layout_marginTop="@dimen/margin_top_30dp"
+        android:layout_marginBottom="@dimen/margin_bottom_30dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
