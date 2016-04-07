@@ -22,16 +22,16 @@ public class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
         UnlockTourFragment fm = new UnlockTourFragment();
         switch (position) {
             case 0:
-                fm = UnlockTourFragment.newInstance(R.layout.tour_screen1);
+                fm = UnlockTourFragment.newInstance(R.layout.tour_screen1, 0);
                 break;
             case 1:
-                fm = UnlockTourFragment.newInstance(R.layout.tour_screen2);
+                fm = UnlockTourFragment.newInstance(R.layout.tour_screen2, 1);
                 break;
             case 2:
-                fm = UnlockTourFragment.newInstance(R.layout.tour_screen3);
+                fm = UnlockTourFragment.newInstance(R.layout.tour_screen3, 2);
                 break;
             case 3:
-                fm = UnlockTourFragment.newInstance(R.layout.tour_screen4);
+                fm = UnlockTourFragment.newInstance(R.layout.tour_screen4, 3);
                 break;
         }
 

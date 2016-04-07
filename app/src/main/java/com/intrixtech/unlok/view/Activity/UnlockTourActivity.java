@@ -74,30 +74,13 @@ public class UnlockTourActivity extends UnlockActivity {
                         isOpaque = true;
                     }
                 }
-
-                if(position == 0){
-                    top_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen1_color));
-                    button_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen1_color));
-                }else if(position == 1){
-                    top_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen2_color));
-                    button_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen2_color));
-                }else if(position == 2){
-                    top_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen3_color));
-                    button_layout.setBackgroundColor(ContextCompat.getColor(UnlockTourActivity.this,
-                            R.color.screen3_color));
-                }
             }
 
             @Override
             public void onPageSelected(int position) {
                 setIndicator(position);
                 if (position == Constants.NUM_PAGES - 2) {
-                    skip.setVisibility(View.GONE);
+                    skip.setVisibility(View.VISIBLE);
                     next.setVisibility(View.GONE);
                     done.setVisibility(View.VISIBLE);
                 } else if (position < Constants.NUM_PAGES - 2) {
